@@ -16,15 +16,35 @@ function criarImagem(produto){
     const descricao = document.createElement('p')
     descricao.textContent = produto.descricao
 
+    const classificacao = document.createElement('p')
+    classificacao.textContent = `Classificação ${produto.classificacao}/5`
+
     const preco = document.createElement('span')
-    preco.textContent = produto.preco
+    preco.textContent = `R$ ${produto.preco}`
+
+    const comprar = document.createElement('a')
+    comprar.textContent = 'COMPRAR'
+    comprar.className = 'comprar-botao'
+    comprar.href = '#'
+
+    
+
+    function mostrarAcao(){
+        alert(`Você clicou no produto: ${nome.textContent}`)
+    }
+
+    comprar.addEventListener('click', function(event){
+        mostrarAcao()
+    })
 
     fotos.appendChild(div)
     div.appendChild(nome)
     div.appendChild(img)
+    div.appendChild(classificacao)
     div.appendChild(descricao)
-    div.appendChild(preco )
-
+    div.appendChild(preco)
+    div.appendChild(comprar)
+    
 
 }
 

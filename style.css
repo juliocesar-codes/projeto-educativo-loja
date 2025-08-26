@@ -84,7 +84,7 @@ main {
 
 div {
     width: 236px;
-    height: 425px;
+    height: 550px;
     background-color: white;
     color: #242424;
     font-weight: 600;
@@ -104,11 +104,10 @@ div img {
 }
 
 div p{
-    padding-block: 10px;
     overflow: hidden;
 }
 
-li {
+.comprar-botao {
     background-color: #008000;
     color: white;
     width: 216px;
