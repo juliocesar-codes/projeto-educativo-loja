@@ -16,4 +16,3 @@ Projeto de Front-End utilizando HTML, CSS e JS, simulando uma loja de produtos d
 * [HTML]
 * [CSS]
 * [JS]
-* ...
