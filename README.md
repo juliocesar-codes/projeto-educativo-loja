@@ -7,7 +7,8 @@ Projeto de Front-End utilizando HTML, CSS e JS, simulando uma loja de produtos d
 
 ### 👤 Autor
 
-* **[Julio Cesar Santana Alves]**
+## Autor 
+[Julio Cesar Santana Alves](https://www.linkedin.com/in/julio-cesar-santana-alves/)
 
 ---
 
